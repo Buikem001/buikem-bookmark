@@ -37,7 +37,7 @@ html, body{
 .nav1{
     display: flex;
     justify-content: space-between;
-    gap: 70px;
+    gap: 25px;
 }
 
 #nav input{
@@ -515,6 +515,15 @@ input[type="email"] {
         gap: 30px;
         text-align: center; 
         transition: .5s;
+    }
+
+    .nav1 a{
+        color: #fff;
+    }
+
+    #nav input{
+        background-color: hsl(231, 69%, 60%);
+        color: #fff;
     }
 
     .navmenu{
